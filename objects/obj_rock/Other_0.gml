@@ -1,3 +1,2 @@
-/// @description Wraps with player
-// You can write your code in this editor
-action_wrap(2);
+/// @description Wrapsaround window
+action_wrap();

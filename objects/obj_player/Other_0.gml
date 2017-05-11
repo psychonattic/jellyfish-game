@@ -1,1 +1,1 @@
-action_wrap(2);
+action_wrap();
