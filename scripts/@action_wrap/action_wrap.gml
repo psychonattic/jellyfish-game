@@ -12,9 +12,9 @@ if (hspeed > 0) && (x >= room_width)
 
 
 if (vspeed < 0) && (y < 0)
-	y += room_height + sprite_height;
+	y += room_height + spr_height;
 if (vspeed > 0) && (y >= room_height)
-	y -= room_height + sprite_height;
+	y -= room_height + spr_height;
 
 
 

@@ -1,10 +1,22 @@
 /// @description if picked up, follow the person that picked it up
 // You can write your code in this editor
-if(player_id != noone && player_id.rock_id == noone){
-	player_id = noone;
+
+if(thrown){
+	motion_add(image_angle,speed);
+	if(hspeed<=0){
+		thrown = false;
+	}
+		
+	
+		//
 }
-if player_id != noone
+//else if(player_id != noone && player_id.rock_id == noone){
+	
+//	player_id = noone;
+//}
+else if (player_id != noone)
 {
+	image_angle = player_id.image_angle;
 	length = player_id.sprite_xoffset-(.13*player_id.sprite_xoffset);
 	x = player_id.x - lengthdir_x(length,player_id.direction);
 	y = player_id.y - lengthdir_y(length,player_id.direction);
@@ -15,3 +27,4 @@ if player_id != noone
 	
 }
 
+speed = max(speed-.3,0);	
