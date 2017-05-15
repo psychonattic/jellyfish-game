@@ -1,9 +1,8 @@
+///@description eat food; grow larger
 with (other) {
-///destory food
-instance_destroy()
-
+instance_destroy()//destory food
 }
 ///player grows
-image_xscale += .2
-image_yscale += .2
+image_xscale += .08
+image_yscale += .08
 

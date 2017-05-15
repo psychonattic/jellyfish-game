@@ -1,4 +1,4 @@
-///turn right
-image_angle -= 3.8;
+///@description turn right
+image_angle -= 4;
 direction = image_angle;
 

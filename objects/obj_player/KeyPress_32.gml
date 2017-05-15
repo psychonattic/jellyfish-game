@@ -1,4 +1,4 @@
-///move forward
+///@description move forward
 xspeed = 25-speed
 if (speed<25){
 motion_add(image_angle,x)

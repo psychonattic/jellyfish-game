@@ -1,2 +1,2 @@
-/// @description Wrapsaround window
+/// @description wraps around room
 action_wrap();
