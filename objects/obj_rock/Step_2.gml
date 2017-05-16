@@ -8,6 +8,6 @@ if (player_id != noone)
 	image_xscale = .4*player_id.image_xscale;
 	image_yscale = .4*player_id.image_yscale;
 	image_angle = player_id.image_angle + 180;
-	direction = image_angle;
+	direction = image_angle;	
 	
 }

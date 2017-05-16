@@ -1,8 +1,14 @@
 ///@description eat food; grow larger
-with (other) {
-instance_destroy()//destory food
+
+
+if(other.speed <= 0){
+	with (other) {
+		instance_destroy()//destory food
+	}
+	///player grows
+	image_xscale += .08
+	image_yscale += .08
+	//add pizza to pizza count
+	pizza_count += 1;
 }
-///player grows
-image_xscale += .08
-image_yscale += .08
 

@@ -4,3 +4,4 @@ image_xscale = .4*player.image_xscale;
 image_yscale = .4*player.image_yscale;
 player_id = noone;
 thrown = false;
+ 
