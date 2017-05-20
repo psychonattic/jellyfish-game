@@ -33,5 +33,8 @@ if(place_meeting(x, y + vspeed, obj_block) && player_id == noone){
 
 
 
-
-speed = max(speed-.3,0);	
+if(speed <=10){
+	speed = max(speed-1,0);
+}else{
+	speed = max(speed-.3,0);	
+}

@@ -6,6 +6,8 @@ pizza_count = 0;
 depth = 1000;
 can_be_hit = true;
 can_move = true;
+can_eat = false;
+can_be_eaten = false;
 ab = gamepad_is_connected(0)
 show_debug_message(ab);
 if(global.gp[global.pad_count] == true){
