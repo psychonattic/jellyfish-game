@@ -1,5 +1,20 @@
 /// @description slows down player automatically
 
+//cheks for player input
+event_user(0);
+
+
+
+
+
+
+
+
+
+
+
+
+
 //horizontal bounce
 if(place_meeting(x+hspeed, y, obj_block)){
 	direction = -direction + 180;
