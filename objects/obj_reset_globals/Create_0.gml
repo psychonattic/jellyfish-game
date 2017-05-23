@@ -1,8 +1,5 @@
-gml_pragma( "global", "__init_action();");
-global.__part_syst=-1;
-global.__part_emit=[];
-global.__argument_relative=false;
-global.__part_type=[];
+/// @description Insert description here
+// You can write your code in this editor
 var gp_num = gamepad_get_device_count();
 for (var i = 0; i < gp_num; i++;)
    {

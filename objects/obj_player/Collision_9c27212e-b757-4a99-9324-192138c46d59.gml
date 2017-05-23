@@ -10,6 +10,7 @@ if(can_eat){
 		}
 	
 		instance_destroy();
+		room_goto(rm_end);
 	}
 
 }
