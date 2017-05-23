@@ -44,7 +44,7 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_3F7079EC",
-                    "x": 544,
+                    "x": 704,
                     "y": 320,
                     "IsDnD": false,
                     "colour": {
@@ -86,7 +86,7 @@
             "animationFPS": 15,
             "animationSpeedType": 0,
             "colour": {
-                "Value": 4290510609
+                "Value": 4283593222
             },
             "hspeed": 0,
             "htiled": false,
@@ -115,7 +115,7 @@
         "modelName": "GMRoomSettings",
         "mvc": "1.0",
         "Height": 768,
-        "Width": 1024,
+        "Width": 1300,
         "inheritRoomSettings": false,
         "persistent": false
     },
