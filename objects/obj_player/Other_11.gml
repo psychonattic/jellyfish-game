@@ -1,5 +1,6 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description player-player collision check
+
+
 if(place_meeting(x+(.4*hspeed), y, obj_player) && can_eat == false){
 		image_angle = -image_angle + 180;
 		//direction = -direction + 180;
