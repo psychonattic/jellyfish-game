@@ -102,7 +102,7 @@
             "m_parentID": "00000000-0000-0000-0000-000000000000",
             "m_serialiseFrozen": false,
             "name": "Compatibility_Instances_Depth_0",
-            "userdefined_depth": true,
+            "userdefined_depth": false,
             "visible": true,
             "instances": [
                 {
