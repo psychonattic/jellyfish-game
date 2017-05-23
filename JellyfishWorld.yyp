@@ -263,14 +263,6 @@
             }
         },
         {
-            "Key": "9ba434a9-6afb-480a-9500-f66ca2fe0e3a",
-            "Value": {
-                "id": "f4818f76-8b9b-4ea7-8d7e-4eab1634d299",
-                "resourcePath": "notes\\notes.yy",
-                "resourceType": "GMNotes"
-            }
-        },
-        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "e77493ce-d384-41f3-8520-8a1513fa6351",
@@ -396,6 +388,14 @@
                 "id": "8cbedfa1-2464-45d9-827c-ae52141f5ea7",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f686298c-6188-4077-b12b-144dfec8f9a9",
+            "Value": {
+                "id": "440cb9b4-0756-4ac2-acfe-ddda139251ef",
+                "resourcePath": "notes\\note_todo.yy",
+                "resourceType": "GMNotes"
             }
         }
     ],

@@ -1,0 +1,23 @@
+To do:
+
+1.	clean up start screen
+
+2.	clean up end screen
+
+3.	make better sprites/ background
+
+4.	test an animation
+
+5.	add sound effects/ music
+
+6.	add spike objects? (if you run into them you drop pizza)
+
+7.	add powerups?
+7.1		powerup to make you faster
+7.2		powerup to temporarily make you bigger
+	
+8.	test and adjust gameplay
+	
+	
+	
+	
