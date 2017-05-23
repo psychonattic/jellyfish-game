@@ -16,13 +16,11 @@ if(other.speed > 0 && pizza_count>0 && can_be_hit == true){
 		//horizontal bounce
 		if(place_meeting(x+hspeed, y, obj_player)){
 			image_angle = -image_angle + 180;
-			//direction = -direction + 180;
 			direction = image_angle;
 		}
 
 		//vertical bounce
 		if(place_meeting(x, y + vspeed, obj_player)){
-			//direction = -direction;
 			image_angle = -image_angle;
 			direction = image_angle;
 		}
