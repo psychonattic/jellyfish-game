@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "1a1d6fa5-1345-4427-ad48-d71f49ef209c",
+            "Value": {
+                "id": "33202f9d-c4d5-4242-94b6-791e9cfcfbfd",
+                "resourcePath": "objects\\obj_fullscreen\\obj_fullscreen.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2515484e-0316-4f5d-8801-c0c921f84c42",
             "Value": {
                 "id": "db1c8b24-ef29-4f41-9001-26799f8678c6",

@@ -32,7 +32,7 @@ if(pad_num>=0){
 	}
 }
 
-if(player_number == 0){//player 1 -- has wasd controls
+if(player_number == 0 && pad_num != 0){//player 1 -- has wasd controls
 	if(keyboard_check(ord("A"))){
 		image_angle += 7;
 		direction = image_angle;
@@ -63,7 +63,7 @@ if(player_number == 0){//player 1 -- has wasd controls
 			rock_id = noone; //releases rock from player
 		}
 	}
-}else if(player_number == 1){//player two -- has arrow key controls
+}else if(player_number == 1 && pad_num != 1){//player two -- has arrow key controls
 	if(keyboard_check(vk_left)){
 		image_angle += 7;
 		direction = image_angle;
