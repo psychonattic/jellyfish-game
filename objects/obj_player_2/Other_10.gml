@@ -30,17 +30,50 @@ if(pad_num>=0){
 			rock_id = noone; //releases rock from player
 		}
 	}
-}else{
-//player 1 -- has wasd controls
-	if(keyboard_check(ord("A"))){
+}
+
+//if(player_number == 0 && pad_num != 0){//player 1 -- has wasd controls
+//	if(keyboard_check(ord("A"))){
+//		image_angle += 7;
+//		direction = image_angle;
+//	}
+//	if(keyboard_check(ord("D"))){
+//		image_angle -= 7;
+//		direction = image_angle;
+//	}
+//	if(keyboard_check_released(ord("W"))){
+//		if (speed<23){
+//			if(can_move){
+//				motion_add(image_angle,x)
+//			}
+//		}
+//		if(speed>=23){
+//			speed = 23
+//		}
+//		speed -= 6
+//	}
+//	if(keyboard_check_released(ord("S"))){//throw rock
+//		if(rock_id != noone){ //checks that you are holding a rock
+//			alarm[0] = .1*room_speed;
+//			can_be_hit = false;
+//			rock_id.direction = direction - 180;
+//			rock_id.speed = 14; //sets the speed of the rock
+//			rock_id.thrown = true; //sets thrown variable to true
+//			rock_id.player_id = noone; //releases player from rock
+//			rock_id = noone; //releases rock from player
+//		}
+//	}
+//}
+else if(pad_num<0){//player two -- has arrow key controls
+	if(keyboard_check(vk_left)){
 		image_angle += 7;
 		direction = image_angle;
 	}
-	if(keyboard_check(ord("D"))){
+	if(keyboard_check(vk_right)){
 		image_angle -= 7;
 		direction = image_angle;
 	}
-	if(keyboard_check_released(ord("W"))){
+	if(keyboard_check_released(vk_up)){
 		if (speed<23){
 			if(can_move){
 				motion_add(image_angle,x)
@@ -51,7 +84,7 @@ if(pad_num>=0){
 		}
 		speed -= 6
 	}
-	if(keyboard_check_released(ord("S"))){//throw rock
+	if(keyboard_check_released(vk_down)){//throw rock
 		if(rock_id != noone){ //checks that you are holding a rock
 			alarm[0] = .1*room_speed;
 			can_be_hit = false;

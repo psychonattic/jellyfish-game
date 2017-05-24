@@ -13,8 +13,7 @@ event_user(0);
 
 //show_debug_message(other_player.pizza_count);
 //show_debug_message(pizza_count);
-//other_player = action_inst_nth_nearest(obj_player,x,y,2);
-other_player = instance_nearest(x,y,obj_player_2);
+other_player = instance_nearest(x,y,obj_player);
 if(other_player != noone && other_player.pizza_count+3 <= pizza_count){
 //show_debug_message("can eat!");
 	can_eat = true;
@@ -34,14 +33,6 @@ else if(can_eat){
 }
 
 
-
-
-
-
-
-
-
-
 //horizontal bounce
 if(place_meeting(x+hspeed, y, obj_block)){
 	direction = -direction + 180;
@@ -52,6 +43,6 @@ if(place_meeting(x, y + vspeed, obj_block)){
 	direction = -direction;
 }
 
+//shows player down
 speed = max(speed-.3,0)
 image_angle = direction;
-
