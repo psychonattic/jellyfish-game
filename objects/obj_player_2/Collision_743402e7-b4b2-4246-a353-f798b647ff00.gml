@@ -28,14 +28,15 @@ else if(other.speed > 0 && pizza_count>0 && can_be_hit == true){
 		
 		
 	//creates new food object
-	var pizza;
-	pizza = instance_create_depth(x,y,0,obj_food);
-	with(pizza){
-		speed = 12;
-		direction = random_range(0,360);
-		motion_add(direction,speed);
-		speed -= 5;		
-	}
+	//var pizza;
+	//pizza = instance_create_depth(x,y,0,obj_food);
+	//with(pizza){
+	//	speed = 12;
+	//	direction = random_range(0,360);
+	//	motion_add(direction,speed);
+	//	speed -= 5;		
+	//}
+	action_create_moving_food();
 		
 	//resizes player and sets hit cooldown
 	image_xscale -= .08;
@@ -55,13 +56,11 @@ else if(other.speed > 0 && pizza_count == 0 && can_be_hit == true){
 		//horizontal bounce
 		if(place_meeting(x+hspeed, y, obj_player_2)){
 			image_angle = -image_angle + 180;
-			//direction = -direction + 180;
 			direction = image_angle;
 		}
 
 		//vertical bounce
 		if(place_meeting(x, y + vspeed, obj_player_2)){
-			//direction = -direction;
 			image_angle = -image_angle;
 			direction = image_angle;
 		}

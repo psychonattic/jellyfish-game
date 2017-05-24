@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "2d639d89-4920-4a2f-a766-be58fb7b4f07",
+            "Value": {
+                "id": "f1b2caf9-b97a-4cbc-a2a5-316135f1a18d",
+                "resourcePath": "scripts\\action_throw_rock\\action_throw_rock.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2e52a276-e9de-459d-8018-4e2264d9a8da",
             "Value": {
                 "id": "18637183-6ebb-4b2f-9e79-2937002f1c27",
@@ -131,6 +139,14 @@
             "Value": {
                 "id": "2a991a6e-e94f-493a-b8ac-edb988aab7b8",
                 "resourcePath": "sprites\\spr_block\\spr_block.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3ce84dff-253b-4663-afb6-14eeaaa87a17",
+            "Value": {
+                "id": "e9c54fd3-437a-4d7e-aa83-b88d2af95201",
+                "resourcePath": "sprites\\spr_character_select\\spr_character_select.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -172,6 +188,14 @@
                 "id": "5f023ffe-679f-44ec-b76b-78301312f98b",
                 "resourcePath": "sprites\\spr_restart\\spr_restart.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "62cee96f-0459-4a71-a55b-d82130365a7b",
+            "Value": {
+                "id": "956af4db-a449-4eef-9971-ebca37fe87d0",
+                "resourcePath": "scripts\\action_turn_left\\action_turn_left.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -303,6 +327,22 @@
             }
         },
         {
+            "Key": "ae44f4c1-ccef-4c34-b28b-a00ebbd0ce98",
+            "Value": {
+                "id": "61d2fb1b-c802-49ae-9888-cfa793341017",
+                "resourcePath": "scripts\\action_move_forward\\action_move_forward.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "b1700dbc-3b7c-4c9d-a6f5-1470c0e4328f",
+            "Value": {
+                "id": "b4d5aeea-b98c-4646-aa02-9ea0e9c14d77",
+                "resourcePath": "scripts\\action_turn_right\\action_turn_right.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "b4e68839-dc3f-474d-8c4a-6a064c96a612",
             "Value": {
                 "id": "57a7407e-e584-4457-a714-06d7e754f9ce",
@@ -391,6 +431,14 @@
             }
         },
         {
+            "Key": "e4b2b8f3-5f61-4fd8-9a0e-6b96614c4eb6",
+            "Value": {
+                "id": "0df4bcc4-0183-4bf1-b4d5-7789bd0b6efa",
+                "resourcePath": "scripts\\action_turn_gamepad\\action_turn_gamepad.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e5f4b266-ba73-486a-a514-5feab45f69d2",
             "Value": {
                 "id": "ea13d2e9-7154-4b5e-975d-8607422eaedd",
@@ -404,6 +452,14 @@
                 "id": "8a351b29-2ff6-4be0-973c-a066e71c3ebc",
                 "resourcePath": "objects\\obj_play_again\\obj_play_again.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ea0e616d-4477-460c-b930-8f6b76b76762",
+            "Value": {
+                "id": "fa5bbffd-41d4-4162-8ea3-347da7f93fa6",
+                "resourcePath": "scripts\\action_create_moving_food\\action_create_moving_food.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -450,6 +506,12 @@
     "script_order": [
         "5a3e2e1b-94f1-4e3f-82ac-2658b1a20040",
         "863da76b-6bf0-4170-a5a7-a62e4fede400",
+        "ae44f4c1-ccef-4c34-b28b-a00ebbd0ce98",
+        "62cee96f-0459-4a71-a55b-d82130365a7b",
+        "b1700dbc-3b7c-4c9d-a6f5-1470c0e4328f",
+        "e4b2b8f3-5f61-4fd8-9a0e-6b96614c4eb6",
+        "2d639d89-4920-4a2f-a766-be58fb7b4f07",
+        "ea0e616d-4477-460c-b930-8f6b76b76762",
         "c4c18dfb-0127-4ad6-b21e-d127ce25c99a",
         "2515484e-0316-4f5d-8801-c0c921f84c42"
     ],

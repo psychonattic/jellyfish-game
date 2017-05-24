@@ -28,14 +28,7 @@ else if(other.speed > 0 && pizza_count>0 && can_be_hit == true){
 		
 		
 	//creates new food object
-	var pizza;
-	pizza = instance_create_depth(x,y,0,obj_food);
-	with(pizza){
-		speed = 12;
-		direction = random_range(0,360);
-		motion_add(direction,speed);
-		speed -= 5;		
-	}
+	action_create_moving_food();
 		
 	//resizes player and sets hit cooldown
 	image_xscale -= .08;
