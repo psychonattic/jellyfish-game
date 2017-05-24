@@ -45,7 +45,7 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_3F7079EC",
-                    "x": 704,
+                    "x": 512,
                     "y": 320,
                     "IsDnD": false,
                     "colour": {
@@ -57,8 +57,8 @@
                     "name_with_no_file_rename": "inst_3F7079EC",
                     "objId": "93bf6dc2-ec47-4cb3-adba-f18900492f5f",
                     "rotation": 0,
-                    "scaleX": 1.75,
-                    "scaleY": 1.5
+                    "scaleX": 1.11476421,
+                    "scaleY": 1.11904764
                 },
                 {
                     "id": "c40312c0-0140-4c23-83c9-39fba6f32247",

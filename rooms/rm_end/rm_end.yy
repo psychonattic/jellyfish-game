@@ -46,7 +46,7 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_7D886671",
-                    "x": 400,
+                    "x": 640,
                     "y": 288,
                     "IsDnD": false,
                     "colour": {
@@ -58,8 +58,8 @@
                     "name_with_no_file_rename": "inst_7D886671",
                     "objId": "e94542ba-0e4d-4d43-b0c9-c5c7ae4b4005",
                     "rotation": 0,
-                    "scaleX": 1.75,
-                    "scaleY": 2
+                    "scaleX": 1.7500217,
+                    "scaleY": 1.47841942
                 },
                 {
                     "id": "7ea9c9ab-4f81-4028-866b-b84586044ba9",
@@ -70,8 +70,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_5FF11E18",
-                    "x": 864,
-                    "y": 288,
+                    "x": 640,
+                    "y": 416,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -82,8 +82,8 @@
                     "name_with_no_file_rename": "inst_5FF11E18",
                     "objId": "c550b30e-5d35-4d2b-9cf6-7d1303086b1e",
                     "rotation": 0,
-                    "scaleX": 1.75,
-                    "scaleY": 2
+                    "scaleX": 1.74977088,
+                    "scaleY": 1.47329986
                 },
                 {
                     "id": "f92a2474-c99f-4987-a39b-09eb5a7aa43b",
