@@ -1,8 +1,23 @@
 To do:
 
 1.	clean up start screen
+	start screen should have options button.
+	Play button
+		play button should redirect to best of screen (best of 1, best of 3, best of 5)
+		
+	create # of matches screen
+		back button
+		once you sleect number of matches, redirects to character select screen
+		
+	Create character select screen
+		able to cycle through different character sprites
+		okay button to start
+			okay button should redirect to start game screen
+		back button to go back to main menu
+		
 
 2.	clean up end screen
+		end screen should display winner
 
 3.	make better sprites/ background
 
@@ -17,6 +32,9 @@ To do:
 7.2		powerup to temporarily make you bigger
 	
 8.	test and adjust gameplay
+	make rebounding rocks from players slow down and redirect more randomly
+
+9. Show score duirng gameplay 
 	
 	
 	
