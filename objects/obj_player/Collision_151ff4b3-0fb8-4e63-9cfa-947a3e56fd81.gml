@@ -2,14 +2,14 @@
 
 //pickup rock case
 if(rock_id == noone && other.speed == 0){//makes sure that you aren't holding a rock 
-	rock_id = other.id;				   //and that the rock you are picking up has not been thrown
-	if(other.player_id == noone){
+	if(other.player_id == noone){//and that the rock you are picking up has not been thrown
+		rock_id = other.id;
 		other.player_id = id;
 	}
 }
 
 //case where you gte hit by rock and drop food
-if(other.speed > 0 && pizza_count>0 && can_be_hit == true){
+else if(other.speed > 0 && pizza_count>0 && can_be_hit == true){
 
 	//redirects the rock that hit you 
 	with(other){

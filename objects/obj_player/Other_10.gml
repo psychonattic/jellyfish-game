@@ -14,7 +14,7 @@ if(pad_num>=0){
 	}
 
 	if(gamepad_axis_value(pad_num,gp_axislh) > .1 || gamepad_axis_value(pad_num,gp_axislh) < -.1){
-		image_angle -= 7.5*gamepad_axis_value(pad_num,gp_axislh);
+		image_angle -= 9*gamepad_axis_value(pad_num,gp_axislh);
 		direction = image_angle;
 	}
 
