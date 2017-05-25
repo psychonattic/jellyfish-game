@@ -2,8 +2,8 @@
 
 if (player_id != noone)
 {
-	image_xscale = .4*player_id.image_xscale;
-	image_yscale = .4*player_id.image_yscale;
+	//image_xscale = .4*player_id.image_xscale;
+	//image_yscale = .4*player_id.image_yscale;
 	image_angle = player_id.image_angle + 180;
 	direction = image_angle;
 	length = player_id.sprite_xoffset-(.13*player_id.sprite_xoffset);
