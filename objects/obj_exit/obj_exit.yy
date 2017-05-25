@@ -5,23 +5,13 @@
     "name": "obj_exit",
     "eventList": [
         {
-            "id": "46c43513-029f-40e8-b242-70ba2d25f889",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 10,
-            "eventtype": 7,
-            "m_owner": "c550b30e-5d35-4d2b-9cf6-7d1303086b1e"
-        },
-        {
-            "id": "99abd996-6407-40cd-8920-f45940056209",
+            "id": "5e2cd128-a101-4ea2-b0ed-ddcbf991b7dd",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 3,
+            "eventtype": 0,
             "m_owner": "c550b30e-5d35-4d2b-9cf6-7d1303086b1e"
         }
     ],

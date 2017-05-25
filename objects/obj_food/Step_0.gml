@@ -1,7 +1,7 @@
 
 /// @description slows down player automatically
 
-check_bounce(obj_block);
+check_bounce_pizza(obj_block);
 
 
 if(speed>5){
