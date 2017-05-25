@@ -10,7 +10,12 @@ if(can_eat){
 		}
 	
 		instance_destroy();
-		room_goto(rm_end);
+		global.p1_wins += 1;
+		if(global.p1_wins>=global.rounds_to_win){
+			room_goto(rm_end);
+		}else{
+			button_start_game();
+		}
 	}
 
 }
