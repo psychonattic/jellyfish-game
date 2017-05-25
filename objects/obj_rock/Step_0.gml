@@ -16,19 +16,22 @@ else if (player_id != noone)
 		
 }
 
-//horizontal bounce
-if(place_meeting(x+hspeed, y, obj_block) && player_id == noone){
-	//direction = -direction + 180;
-	image_angle = -image_angle + 180;
-	direction = image_angle;
+if(player_id==noone){
+	check_bounce(obj_block);
 }
+////horizontal bounce
+//if(place_meeting(x+hspeed, y, obj_block) && player_id == noone){
+//	//direction = -direction + 180;
+//	image_angle = -image_angle + 180;
+//	direction = image_angle;
+//}
 
-//vertical bounce
-if(place_meeting(x, y + vspeed, obj_block) && player_id == noone){
-	//direction = -direction;
-	image_angle = -image_angle;
-	direction = image_angle;
-}
+////vertical bounce
+//if(place_meeting(x, y + vspeed, obj_block) && player_id == noone){
+//	//direction = -direction;
+//	image_angle = -image_angle;
+//	direction = image_angle;
+//}
 
 
 

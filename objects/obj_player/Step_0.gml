@@ -1,12 +1,9 @@
 /// @description slows down player automatically
 
 
-//checks for player colision
-event_user(1);
 
 //cheks for player input
 event_user(0);
-
 
 
 
@@ -34,26 +31,11 @@ else if(can_eat){
 }
 
 
+check_bounce_player(obj_player_2);
 
+check_bounce(obj_block);
 
-
-
-
-
-
-
-//horizontal bounce
-if(place_meeting(x+hspeed, y, obj_block)){
-	direction = -direction + 180;
-	image_angle = direction;
-}
-
-//vertical bounce
-if(place_meeting(x, y + vspeed, obj_block)){
-	direction = -direction;
-	image_angle = direction;
-}
-
+//slows player automatically
 speed = max(speed-.3,0)
 
 

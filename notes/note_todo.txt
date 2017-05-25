@@ -15,6 +15,9 @@ To do:
 			okay button should redirect to start game screen
 		back button to go back to main menu
 		
+		
+	make game randomly select from different game play rooms
+		
 
 2.	clean up end screen
 		end screen should display winner
@@ -33,6 +36,9 @@ To do:
 	
 8.	test and adjust gameplay
 	make rebounding rocks from players slow down and redirect more randomly
+	if a larger player runs into a smaller player, the smaller player should be stunned for a second
+	create global 'max_speed', change speed adjustments using max speed, increase or decrease max speed depending on size.
+	powerup could temporarily change max speed
 
 9. Show score duirng gameplay 
 	
