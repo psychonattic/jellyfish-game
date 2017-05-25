@@ -7,3 +7,6 @@ for (var i = 0; i < gp_num; i++;)
    }
 global.pad_count = 0;
 global.player_num = 0;
+global.rounds_to_win = 0;
+global.p1_wins = 0;
+global.p2_wins = 0;
