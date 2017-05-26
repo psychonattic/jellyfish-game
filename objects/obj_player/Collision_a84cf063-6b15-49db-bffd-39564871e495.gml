@@ -14,6 +14,7 @@ if(can_eat){
 		if(global.p1_wins>=global.rounds_to_win){
 			room_goto(rm_end);
 		}else{
+			global.player_num = 0;
 			button_start_game();
 		}
 	}

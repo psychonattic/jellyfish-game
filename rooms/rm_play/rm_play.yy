@@ -80,7 +80,8 @@
         "2ee0fef1-83e4-4b4a-8194-45f9ebe2b0ac",
         "f4ee65a6-d10d-41c9-aab1-3055dc6ee970",
         "61fa175a-9ecb-4775-8904-a4e4267d9b66",
-        "43297ee9-b88f-4339-8b7c-2cee61fc57dc"
+        "43297ee9-b88f-4339-8b7c-2cee61fc57dc",
+        "94b9ef75-e676-4931-8489-b2e2c28ac6de"
     ],
     "layers": [
         {
@@ -1833,6 +1834,30 @@
                     "rotation": 0,
                     "scaleX": 1,
                     "scaleY": 1
+                },
+                {
+                    "id": "94b9ef75-e676-4931-8489-b2e2c28ac6de",
+                    "modelName": "GMRInstance",
+                    "mvc": "1.0",
+                    "ignore": false,
+                    "inheritItemSettings": false,
+                    "m_originalParentID": "00000000-0000-0000-0000-000000000000",
+                    "m_serialiseFrozen": false,
+                    "name": "inst_4C214E38",
+                    "x": 640,
+                    "y": 352,
+                    "IsDnD": false,
+                    "colour": {
+                        "Value": 4294967295
+                    },
+                    "creationCodeFile": "",
+                    "creationCodeType": "",
+                    "inheritCode": false,
+                    "name_with_no_file_rename": "inst_4C214E38",
+                    "objId": "2f973881-7deb-411c-946e-9aa41c05f55d",
+                    "rotation": 0,
+                    "scaleX": 1,
+                    "scaleY": 1
                 }
             ]
         },
@@ -1900,7 +1925,7 @@
         "mvc": "1.0",
         "clearDisplayBuffer": true,
         "clearViewBackground": true,
-        "enableViews": false,
+        "enableViews": true,
         "inheritViewSettings": false
     },
     "views": [
@@ -1915,7 +1940,7 @@
             "inherit": false,
             "objId": "00000000-0000-0000-0000-000000000000",
             "vborder": 32,
-            "visible": false,
+            "visible": true,
             "vspeed": -1,
             "wport": 1024,
             "wview": 1024,

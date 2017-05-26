@@ -1,9 +1,9 @@
-if (speed<23){
+if (speed<maximum_speed){
 			if(can_move){
-				motion_add(image_angle,x)
+				motion_add(image_angle,x);
 			}
 		}
-		if(speed>=23){
-			speed = 23
+		if(speed>=maximum_speed){
+			speed = maximum_speed;
 		}
-		speed -= 6
+		speed -= 6;

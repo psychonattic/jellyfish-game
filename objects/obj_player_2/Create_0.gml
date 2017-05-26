@@ -14,5 +14,5 @@ if(global.gp[global.pad_count] == true){
 	pad_num = global.pad_count;
 	global.pad_count ++;
 }
-player_number = global.player_num;
-global.player_num += 1;
+maximum_speed = global.max_speed;
+force = speed + 2*pizza_count;

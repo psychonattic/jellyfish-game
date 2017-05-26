@@ -36,6 +36,8 @@ check_bounce_player(obj_player_2);
 check_bounce(obj_block);
 
 //slows player automatically
-speed = max(speed-.3,0)
+speed = max(speed-.3,0);
+
+force = speed + 2*pizza_count;
 
 

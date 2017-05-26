@@ -37,4 +37,6 @@ check_bounce_player(obj_player);
 check_bounce(obj_block);
 
 //shows player down
-speed = max(speed-.3,0)
+speed = max(speed-.3,0);
+
+force = speed + 2*pizza_count;

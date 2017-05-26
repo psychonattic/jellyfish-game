@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "2f973881-7deb-411c-946e-9aa41c05f55d",
+            "Value": {
+                "id": "dc9a82e1-7fa3-48ac-b966-aa6edb65ac73",
+                "resourcePath": "objects\\obj_camera\\obj_camera.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2f9bf0b7-245f-438b-bdbe-3b5c59b654b8",
             "Value": {
                 "id": "d7bf2e26-265b-4659-bb5b-2896f602b6fe",
@@ -252,14 +260,6 @@
                 "id": "1701c3c8-16ad-4a99-b0bb-a15317f8b391",
                 "resourcePath": "objects\\obj_start_menu\\obj_start_menu.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "4ea3c856-30e7-4882-a085-dd3be9099748",
-            "Value": {
-                "id": "9519bd9c-9d2c-4237-8c48-342d6a4e35e9",
-                "resourcePath": "views\\4ea3c856-30e7-4882-a085-dd3be9099748.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
