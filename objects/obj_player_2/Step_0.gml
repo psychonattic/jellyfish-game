@@ -2,6 +2,8 @@
 
 
 
+action_wrap();
+
 
 //cheks for player input
 event_user(0);
@@ -23,12 +25,15 @@ if(other_player != noone && other_player.pizza_count+3 <= pizza_count){
 }
 
 if(can_be_eaten){
-	image_blend = c_red;
+	//image_blend = c_red;
+	sprite_index = spr_player_red;
 }
 else if(can_eat){
-	image_blend = c_green;
+	//image_blend = c_green;
+	sprite_index = spr_player_green;
 }else{
-	image_blend = c_white;
+	//image_blend = c_white;
+	sprite_index = spr_player;
 }
 
 check_bounce_player(obj_player);
