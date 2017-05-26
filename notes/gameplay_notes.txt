@@ -1,0 +1,6 @@
+pizzas should slowdown faster.
+
+rocks should slow significantly after bouncing off player
+
+fix room wrap bug
+

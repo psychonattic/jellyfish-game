@@ -5,13 +5,29 @@ var move = 0;
 move -= max(keyboard_check_pressed(vk_up),keyboard_check_pressed(ord("W")),0);
 move += max(keyboard_check_pressed(vk_down),keyboard_check_pressed(ord("S")),0);
 
-//if(global.gp[0] == true && gamepad_axis_value(0,gp_axislv)>.2){
-//	move -= 1;
-//}
+if(global.gp[0] == true && gamepad_axis_value(0,gp_axislv)>.4 && can_move){
+	move += 1;
+	can_move = false;
+	alarm[0] = .2*room_speed;
+}
 
-//if(global.gp[0] == true && gamepad_axis_value(0,gp_axislv) < -.2){
-//	move += 1;
-//}
+if(global.gp[0] == true && gamepad_axis_value(0,gp_axislv) < -.4 && can_move){
+	move -= 1;
+	can_move = false;
+	alarm[0] = .2*room_speed;
+}
+
+if(global.gp[1] == true && gamepad_axis_value(1,gp_axislv)>.4 && can_move){
+	move += 1;
+	can_move = false;
+	alarm[0] = .2*room_speed;
+}
+
+if(global.gp[1] == true && gamepad_axis_value(1,gp_axislv) < -.4 && can_move){
+	move -= 1;
+	can_move = false;
+	alarm[0] = .2*room_speed;
+}
 
 if(move != 0){
 	arrow_position += move;

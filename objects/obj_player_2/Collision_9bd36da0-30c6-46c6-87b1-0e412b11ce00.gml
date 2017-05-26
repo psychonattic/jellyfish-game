@@ -11,6 +11,7 @@ if(can_eat){
 	
 		instance_destroy();
 		global.p2_wins += 1;
+		global.pad_count = 0;
 		if(global.p2_wins>=global.rounds_to_win){
 			room_goto(rm_end);
 		}else{

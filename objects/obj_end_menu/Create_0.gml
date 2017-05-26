@@ -8,3 +8,4 @@ arrow.x = end_menu[0].x - end_menu[0].sprite_xoffset - arrow.sprite_xoffset;
 arrow.y = end_menu[0].y;
 
 arrow_position = 0;
+can_move = true;

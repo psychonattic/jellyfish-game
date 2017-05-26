@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "00d9555e-d440-46a8-acb7-9bf130a08bfd",
+            "Value": {
+                "id": "f0f8e881-084f-4baa-8cd2-413ed75f3ea0",
+                "resourcePath": "notes\\gameplay_notes.yy",
+                "resourceType": "GMNotes"
+            }
+        },
+        {
             "Key": "041e0cc6-a1bb-432f-81ef-9df3b067abbd",
             "Value": {
                 "id": "45eb5243-9a84-43cc-a807-6dd87f73d4c8",

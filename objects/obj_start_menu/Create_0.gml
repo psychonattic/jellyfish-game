@@ -9,3 +9,4 @@ arrow.y = start_menu[0].y;
 
 space = 64;
 arrow_position = 0;
+can_move = true;

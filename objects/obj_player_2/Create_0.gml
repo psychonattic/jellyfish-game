@@ -16,3 +16,6 @@ if(global.gp[global.pad_count] == true){
 }
 maximum_speed = global.max_speed;
 force = speed + 2*pizza_count;
+
+alarm[1] = .3*room_speed;
+can_move = false;
