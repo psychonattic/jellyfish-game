@@ -9,3 +9,5 @@ arrow.y = end_menu[0].y;
 
 arrow_position = 0;
 can_move = true;
+
+

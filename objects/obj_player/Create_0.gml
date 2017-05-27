@@ -19,3 +19,4 @@ force = speed + 2*pizza_count;
 
 alarm[1] = .3*room_speed;
 can_move = false;
+

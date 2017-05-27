@@ -1,5 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
+
+
 var move = 0;
 
 move -= max(keyboard_check_pressed(vk_up),keyboard_check_pressed(ord("W")),0);

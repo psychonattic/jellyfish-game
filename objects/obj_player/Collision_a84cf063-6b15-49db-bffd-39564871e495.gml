@@ -13,6 +13,7 @@ if(can_eat){
 		global.p1_wins += 1;
 		global.pad_count = 0;
 		if(global.p1_wins>=global.rounds_to_win){
+		global.winner = "Player 1";
 			room_goto(rm_end);
 		}else{
 			global.player_num = 0;

@@ -47,3 +47,7 @@ push = max(keyboard_check_pressed(vk_enter),gamepad_button_check_pressed(0,gp_fa
 if(push == 1){
 	start_menu_select(arrow_position);
 }
+
+
+
+
