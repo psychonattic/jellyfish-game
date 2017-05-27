@@ -1784,8 +1784,8 @@
                     "name_with_no_file_rename": "inst_76BFAB48",
                     "objId": "2f9bf0b7-245f-438b-bdbe-3b5c59b654b8",
                     "rotation": 0,
-                    "scaleX": 1,
-                    "scaleY": 1
+                    "scaleX": 1.2,
+                    "scaleY": 1.7
                 },
                 {
                     "id": "fd3ee5b2-110b-47ad-bb1b-f9c43402bd93",
@@ -1832,8 +1832,8 @@
                     "name_with_no_file_rename": "inst_74C5CF9E",
                     "objId": "c1053ccf-46b5-4290-a30f-38922080e4ab",
                     "rotation": 0,
-                    "scaleX": 1,
-                    "scaleY": 1
+                    "scaleX": 1.2,
+                    "scaleY": 1.7
                 },
                 {
                     "id": "7195468a-12ab-4af7-8def-a6ac8665c1b8",

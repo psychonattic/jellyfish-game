@@ -2,7 +2,7 @@
 var arg_obj = argument[0];
 var other_player = instance_nearest(x,y,arg_obj);
 
-if(place_meeting(x+(hspeed), y, arg_obj) && can_eat == false){
+if(place_meeting(x+(1.5*hspeed), y, arg_obj) && can_eat == false){
 	//image_angle = -image_angle + 180;
 	//direction = image_angle;
 	if(force>other_player.force){
@@ -18,7 +18,7 @@ if(place_meeting(x+(hspeed), y, arg_obj) && can_eat == false){
 }
 
 //vertical bounce
-if(place_meeting(x, y + (vspeed), arg_obj) && can_eat == false){
+if(place_meeting(x, y + (1.5*vspeed), arg_obj) && can_eat == false){
 	//image_angle = -image_angle;
 	//direction = image_angle;
 	if(force>=other_player.force){

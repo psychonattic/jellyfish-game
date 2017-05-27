@@ -26,14 +26,14 @@ if(other_player != noone && other_player.pizza_count+3 <= pizza_count){
 
 if(can_be_eaten){
 	//image_blend = c_red;
-	sprite_index = spr_player_red;
+	sprite_index = spr_new_player_pink;
 }
 else if(can_eat){
 	//image_blend = c_green;
-	sprite_index = spr_player_green;
+	sprite_index = spr_new_player_green;
 }else{
 	//image_blend = c_white;
-	sprite_index = spr_player;
+	sprite_index = spr_new_player_blue;
 }
 
 check_bounce_player(obj_player);

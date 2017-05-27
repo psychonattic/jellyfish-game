@@ -44,7 +44,7 @@ if(move != 0){
 	arrow.y = end_menu[arrow_position].y;
 }
 
-push = max(keyboard_check_pressed(vk_enter),gamepad_button_check_pressed(0,gp_face1),0);
+push = max(keyboard_check_pressed(vk_enter),gamepad_button_check_pressed(0,gp_face1),gamepad_button_check_pressed(1,gp_face1),0);
 
 if(push == 1){
 	end_menu_select(arrow_position);

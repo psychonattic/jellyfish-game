@@ -1,9 +1,11 @@
 /// @description instance variable declarations
 // You can write your code in this editor
+image_speed = 0;
 pad_num = -1;
 rock_id = noone;
 pizza_count = 0;
 depth = 1000;
+//image_speed = 0;
 can_be_hit = true;
 can_move = true;
 can_eat = false;

@@ -39,14 +39,6 @@
             }
         },
         {
-            "Key": "041e0cc6-a1bb-432f-81ef-9df3b067abbd",
-            "Value": {
-                "id": "45eb5243-9a84-43cc-a807-6dd87f73d4c8",
-                "resourcePath": "sprites\\sprite8\\sprite8.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "04237c18-c332-432a-9f07-cc01702affc9",
             "Value": {
                 "id": "729fbe8f-1e80-4aab-8cbe-c62f7ab503e7",
@@ -68,6 +60,14 @@
                 "id": "00b0f6a1-dafb-448f-9c86-c8222651f050",
                 "resourcePath": "views\\0d674b0e-c5e3-42c5-9173-a2dfb6bd89be.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "0e95c278-9dc2-413d-ab61-a2b533bac33f",
+            "Value": {
+                "id": "a2b28a83-f109-44aa-b6fb-8398706f3ca8",
+                "resourcePath": "sprites\\spr_new_player_blue\\spr_new_player_blue.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -295,6 +295,14 @@
             }
         },
         {
+            "Key": "5407301d-00c6-4863-929d-d4921d2a78b2",
+            "Value": {
+                "id": "780f840c-83d4-408c-a626-b8ecfe8e3ce2",
+                "resourcePath": "sprites\\spr_new_player_pink\\spr_new_player_pink.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5526691b-11d5-4051-8f9c-87f2d5ee340e",
             "Value": {
                 "id": "a7bfcbe6-6fea-4d7f-b2b1-0746947e3e6d",
@@ -332,6 +340,14 @@
                 "id": "dd605ffa-34f9-4af6-985f-a9ec16d19c24",
                 "resourcePath": "views\\5e502b23-6fa1-4e99-8ec0-d738fab02822.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "60712c98-d6df-49ac-bd19-bbf36a53840f",
+            "Value": {
+                "id": "949d1fdc-4b08-4302-a7b3-c0eb5f26374e",
+                "resourcePath": "sprites\\spr_new_player_green\\spr_new_player_green.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -748,14 +764,6 @@
                 "id": "7c865553-c43e-40c2-9939-be6bde5b28cf",
                 "resourcePath": "scripts\\check_bounce_pizza\\check_bounce_pizza.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "d59fada2-355e-4e3e-a680-80532ca5c8bc",
-            "Value": {
-                "id": "b0c77f16-2f52-44c9-9ecc-3ce1ad18a774",
-                "resourcePath": "sprites\\sprite18\\sprite18.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
