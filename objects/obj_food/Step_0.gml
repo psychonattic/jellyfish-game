@@ -4,10 +4,10 @@
 check_bounce_pizza(obj_block);
 
 
-if(speed>5){
-	speed = max(speed-.3,0)
+if(speed>7){
+	speed = max(speed-.5,0)
 }
 
-if(speed<=5){
-	speed = max(speed-.8,0);
+if(speed<=7){
+	speed = max(speed-1.4,0);
 }

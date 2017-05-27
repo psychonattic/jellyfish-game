@@ -27,5 +27,5 @@ if(player_id==noone){
 if(speed <=10){
 	speed = max(speed-1,0);
 }else{
-	speed = max(speed-.3,0);	
+	speed = max(speed-.4,0);	
 }

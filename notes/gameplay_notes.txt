@@ -1,6 +1,6 @@
-pizzas should slowdown faster.
+pizzas should slowdown faster. -- taken care of
 
-rocks should slow significantly after bouncing off player
+rocks should slow significantly after bouncing off player -- done for now, might need more adjustment
 
-fix room wrap bug
+fix room wrap bug -- possibly taken care of?
 
