@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+can_move = false;
+alarm[0] = .2*room_speed;
 
 var move = 0;
 
@@ -46,6 +48,6 @@ if(move != 0){
 
 push = max(keyboard_check_pressed(vk_enter),gamepad_button_check_pressed(0,gp_face1),gamepad_button_check_pressed(1,gp_face1),0);
 
-if(push == 1){
+if(push == 1 && can_move){
 	end_menu_select(arrow_position);
 }
