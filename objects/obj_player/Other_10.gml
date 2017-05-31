@@ -1,5 +1,6 @@
 /// @description keyboard/ gamepad input
 // You can write your code in this editor
+
 if(pad_num>=0){
 	if(gamepad_button_check_released(pad_num,gp_face1)){
 		action_move_forward();
@@ -30,3 +31,4 @@ else{
 		action_throw_rock();
 	}
 }
+
