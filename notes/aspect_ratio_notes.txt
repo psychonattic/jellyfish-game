@@ -1,0 +1,24 @@
+Boundries of screen:
+Display:
+	display_get_width()
+	display_get_height()
+	
+Window:
+	window_get_width()
+	window_get_height()
+	window_set_size()
+	window_center()
+		can't resize and center in the same step
+		
+		
+the layers:
+Application Surface:
+	surface_get_width(application_surface)
+	surface_get_height(application_surface)
+	surface_resize(application_surface,width,height)
+	
+GUI Layer
+	Apeears on top of of everything in the draw events
+	gui layer can be resized
+	display_set_gui_size()
+	should match game aspect ratio
