@@ -2,7 +2,7 @@
 var arg_obj = argument[0];
 //horizontal bounce
 if(place_meeting(x+1.6*hspeed, y, arg_obj)){
-	direction = -direction + 180;
+	direction = -direction+180;
 	image_angle = direction;
 }
 

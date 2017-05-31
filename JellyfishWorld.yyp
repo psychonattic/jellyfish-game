@@ -479,6 +479,14 @@
             }
         },
         {
+            "Key": "7b639ef1-6ed3-4326-9996-cee7bfa7bb80",
+            "Value": {
+                "id": "29648275-4b66-4770-b6f4-0e8e9f00e9c6",
+                "resourcePath": "objects\\obj_player_ai\\obj_player_ai.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7f67cba5-f5e5-48d3-9bee-3e4d061dfe1b",
             "Value": {
                 "id": "e1f19ead-e50d-43e2-9bef-27fe430dbc80",
@@ -892,6 +900,14 @@
                 "id": "9a33e580-b090-4a2a-92e5-36f31ec62567",
                 "resourcePath": "fonts\\font_start\\font_start.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "f37dcc43-e568-4c14-888a-8f584115642a",
+            "Value": {
+                "id": "5f9e9f54-e3ec-461d-9a06-8ed513c8c6a1",
+                "resourcePath": "rooms\\rm_play_test\\rm_play_test.yy",
+                "resourceType": "GMRoom"
             }
         },
         {

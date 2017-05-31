@@ -15,3 +15,5 @@ global.p1_wins = 0;
 global.p2_wins = 0;
 global.max_speed = 28;
 global.winner = "";
+global.debug = false;
+global.ai = false;

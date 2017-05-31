@@ -1,6 +1,7 @@
 /// @description slows down player automatically
 
 
+
 action_wrap();
 
 
@@ -10,15 +11,10 @@ event_user(0);
 
 
 
+
 //show_debug_message(other_player.pizza_count);
 //show_debug_message(pizza_count);
-//other_player = action_inst_nth_nearest(obj_player,x,y,2);
-if(global.debug){
-	other_player = instance_nearest(x,y,obj_player_ai);
-}
-else{
-	other_player = instance_nearest(x,y,obj_player_2);
-}
+other_player = instance_nearest(x,y,obj_player);
 if(other_player != noone && other_player.pizza_count+3 <= pizza_count){
 //show_debug_message("can eat!");
 	can_eat = true;
@@ -40,14 +36,12 @@ else if(can_eat){
 	sprite_index = spr_new_player_blue;
 }
 
+check_bounce_player(obj_player);
 
-check_bounce_player(obj_player_2);
 
 check_bounce(obj_block);
 
-//slows player automatically
+//shows player down
 speed = max(speed-.3,0);
 
 force = speed + 2*pizza_count;
-
-
