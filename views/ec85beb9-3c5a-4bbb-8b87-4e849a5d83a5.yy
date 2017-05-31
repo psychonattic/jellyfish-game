@@ -5,7 +5,8 @@
     "name": "ec85beb9-3c5a-4bbb-8b87-4e849a5d83a5",
     "children": [
         "bb0b8593-8c3a-41c6-a010-879c4828a9de",
-        "65a682e7-6a0a-418a-aa86-ccf5174ad112"
+        "65a682e7-6a0a-418a-aa86-ccf5174ad112",
+        "5fcc20a7-cfff-4305-b845-dc362e1256fb"
     ],
     "filterType": "GMScript",
     "folderName": "text",

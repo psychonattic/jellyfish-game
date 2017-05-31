@@ -33,6 +33,7 @@ To do:
 7.	add powerups?
 7.1		powerup to make you faster
 7.2		powerup to temporarily make you bigger
+		powerup to freeze your oponent for 1.5 seconds
 	
 8.	test and adjust gameplay
 	make rebounding rocks from players slow down and redirect more randomly
@@ -42,6 +43,8 @@ To do:
 
 9. Show score duirng gameplay 
 	
+	
+	add basic AI
 	
 	
 	

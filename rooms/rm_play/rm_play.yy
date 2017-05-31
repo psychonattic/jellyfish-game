@@ -82,7 +82,8 @@
         "61fa175a-9ecb-4775-8904-a4e4267d9b66",
         "43297ee9-b88f-4339-8b7c-2cee61fc57dc",
         "253e4f15-2a01-4df2-817c-d40741a6e864",
-        "a98c9089-a117-4cbc-85aa-886297b70df0"
+        "a98c9089-a117-4cbc-85aa-886297b70df0",
+        "f3f850b1-00be-4f1b-aec5-100e9ca841c9"
     ],
     "layers": [
         {
@@ -1883,6 +1884,30 @@
                     "rotation": 0,
                     "scaleX": 1,
                     "scaleY": 1
+                },
+                {
+                    "id": "f3f850b1-00be-4f1b-aec5-100e9ca841c9",
+                    "modelName": "GMRInstance",
+                    "mvc": "1.0",
+                    "ignore": false,
+                    "inheritItemSettings": false,
+                    "m_originalParentID": "00000000-0000-0000-0000-000000000000",
+                    "m_serialiseFrozen": false,
+                    "name": "inst_2148450",
+                    "x": 1280,
+                    "y": 736,
+                    "IsDnD": false,
+                    "colour": {
+                        "Value": 4294967295
+                    },
+                    "creationCodeFile": "",
+                    "creationCodeType": "",
+                    "inheritCode": false,
+                    "name_with_no_file_rename": "inst_2148450",
+                    "objId": "4e46772d-2fe2-4ab2-a3e9-168cf2c241c3",
+                    "rotation": 0,
+                    "scaleX": 1,
+                    "scaleY": 1
                 }
             ]
         },
@@ -1908,7 +1933,7 @@
             "name": "Compatibility_Colour",
             "userdefined_depth": true,
             "visible": true,
-            "animationFPS": 15,
+            "animationFPS": 1,
             "animationSpeedType": 0,
             "colour": {
                 "Value": 4294967168
@@ -1917,7 +1942,7 @@
             "htiled": false,
             "spriteId": "00000000-0000-0000-0000-000000000000",
             "stretch": false,
-            "userdefined_animFPS": false,
+            "userdefined_animFPS": true,
             "vspeed": 0,
             "vtiled": false,
             "x": 0,
