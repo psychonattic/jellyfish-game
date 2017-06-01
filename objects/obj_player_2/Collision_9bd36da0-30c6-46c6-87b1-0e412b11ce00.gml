@@ -20,4 +20,6 @@ if(can_eat){
 		}
 	}
 
+}else{
+	action_move_forward();
 }

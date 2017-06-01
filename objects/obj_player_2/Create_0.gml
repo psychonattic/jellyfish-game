@@ -15,7 +15,11 @@ if(global.gp[global.pad_count] == true){
 	pad_num = global.pad_count;
 	global.pad_count ++;
 }
-maximum_speed = global.max_speed;
+if(global.ai){
+	maximum_speed = global.max_speed-4;
+}else{
+	maximum_speed = global.max_speed;
+}
 force = speed + 2*pizza_count;
 
 alarm[1] = .3*room_speed;

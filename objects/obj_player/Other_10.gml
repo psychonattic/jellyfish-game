@@ -16,7 +16,7 @@ if(pad_num>=0){
 }
 
 
-else{
+
 //player 1 -- has wasd controls
 	if(keyboard_check(ord("A"))){
 		action_turn_left();
@@ -30,5 +30,5 @@ else{
 	if(keyboard_check_released(ord("S"))){//throw rock
 		action_throw_rock();
 	}
-}
+
 
