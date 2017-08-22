@@ -6,7 +6,8 @@
     "children": [
         "a482d4bc-cd94-47fe-8a40-4109047178ae",
         "8822c82c-fbda-4d98-929f-b37b225ee8c0",
-        "89a1c22f-8d59-4dd3-8f8f-7d5fcfef7671"
+        "89a1c22f-8d59-4dd3-8f8f-7d5fcfef7671",
+        "f2601e70-02e2-497e-8570-8f808abd3d6f"
     ],
     "filterType": "GMScript",
     "folderName": "menus",

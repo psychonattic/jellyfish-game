@@ -62,10 +62,10 @@ if(global.ai == true){
 		else if (rock_id != noone && can_eat == false){
 			var player = instance_nearest(x,y,obj_player);
 			var dir = point_direction(x,y,player.x,player.y);
-			if(direction+20<=dir+180){
+			if(direction+22<=dir+180){
 				action_turn_left();
 			}
-			else if(direction-20>=dir+180){
+			else if(direction-22>=dir+180){
 				action_turn_right();
 			}
 			else{

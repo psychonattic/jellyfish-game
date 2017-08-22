@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "0fee5bcb-54be-4f62-80c1-ccfabd606c05",
+            "Value": {
+                "id": "517c49d4-4247-4b9e-961d-bde8753e7515",
+                "resourcePath": "sprites\\spr_multiplayer\\spr_multiplayer.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "11c4777e-ecdd-4e71-9e3f-a346c0ae90f6",
             "Value": {
                 "id": "16ff18ec-e3c5-4b7c-bf03-f8d63ce44c8e",
@@ -303,6 +311,22 @@
             }
         },
         {
+            "Key": "50b3c735-6be6-4c32-8b13-b01813f076f0",
+            "Value": {
+                "id": "89920b0b-9eea-46a7-a5d7-85cf4d7214d1",
+                "resourcePath": "rooms\\rm_multiplayer_select\\rm_multiplayer_select.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "51803c57-c356-4b18-91a7-5a0664ec36ea",
+            "Value": {
+                "id": "5dcf5f77-d514-4ef6-bc66-53783869d20b",
+                "resourcePath": "scripts\\button_singleplayer\\button_singleplayer.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "5390ed59-7763-48a4-a296-5b8642417243",
             "Value": {
                 "id": "5fb4669f-e8ae-41d8-8882-88b269a62c2d",
@@ -423,6 +447,14 @@
             }
         },
         {
+            "Key": "6ce04b9c-bf6c-49e6-8c59-3a44ae0b560a",
+            "Value": {
+                "id": "00659cb5-fb3f-44b9-b72d-ecf8a78f9174",
+                "resourcePath": "objects\\obj_multiplayer\\obj_multiplayer.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "706fdf60-0528-414f-884f-102d7a9bfaf6",
             "Value": {
                 "id": "fe19b9ae-6d4b-4590-b9bf-d18686bb6824",
@@ -491,6 +523,14 @@
             "Value": {
                 "id": "bef2bd65-6ff8-4a89-984d-d177c4515f97",
                 "resourcePath": "objects\\obj_end_menu\\obj_end_menu.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "858cc16c-1b62-4b0a-a666-1f1d2c37885d",
+            "Value": {
+                "id": "9dbccf7c-3c84-4ad7-9f4d-13eb5c865790",
+                "resourcePath": "objects\\obj_singleplayer\\obj_singleplayer.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -687,6 +727,30 @@
             }
         },
         {
+            "Key": "b66f5e7e-7a67-4a5d-875c-42dd37f076d4",
+            "Value": {
+                "id": "b6dd4bdf-18d3-4953-87ba-dd7f420f9455",
+                "resourcePath": "scripts\\button_to_multiplayer_select\\button_to_multiplayer_select.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "b7ed10cb-1ae2-45ff-99a9-3dfbbfc1baac",
+            "Value": {
+                "id": "d33941d9-b334-477d-8ffa-bfa97037d98c",
+                "resourcePath": "sprites\\spr_singleplayer\\spr_singleplayer.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "badb9b42-b757-4825-92c8-6ccf24c22b8f",
+            "Value": {
+                "id": "d495eb3e-6ad6-42c0-bbb9-1a86daaf340c",
+                "resourcePath": "objects\\obj_multiplayer_select_menu\\obj_multiplayer_select_menu.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "bb0b8593-8c3a-41c6-a010-879c4828a9de",
             "Value": {
                 "id": "575ee350-4a34-4292-a154-4d3ecd56de5a",
@@ -807,6 +871,14 @@
             }
         },
         {
+            "Key": "d3e1dceb-9850-4b8a-9bde-a412c6b61966",
+            "Value": {
+                "id": "2c41da0e-67f7-43f4-8393-47fe6e095417",
+                "resourcePath": "scripts\\button_multiplayer\\button_multiplayer.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "d477401f-e4b8-4874-a774-62407d9068fa",
             "Value": {
                 "id": "7c865553-c43e-40c2-9939-be6bde5b28cf",
@@ -895,6 +967,14 @@
             }
         },
         {
+            "Key": "f2601e70-02e2-497e-8570-8f808abd3d6f",
+            "Value": {
+                "id": "4e83d249-69bf-48f9-9d37-af7bd0c982af",
+                "resourcePath": "scripts\\multiplayer_select_menu\\multiplayer_select_menu.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f37dcc43-e568-4c14-888a-8f584115642a",
             "Value": {
                 "id": "5f9e9f54-e3ec-461d-9a06-8ed513c8c6a1",
@@ -975,9 +1055,13 @@
         "478696f2-a493-4e3a-8372-74e255aaa8d0",
         "fd071abb-1f9f-4c1e-a28b-a6d32cd7af64",
         "1bf16731-bfd7-4f6e-bd92-aa463699ad2a",
+        "51803c57-c356-4b18-91a7-5a0664ec36ea",
+        "d3e1dceb-9850-4b8a-9bde-a412c6b61966",
+        "b66f5e7e-7a67-4a5d-875c-42dd37f076d4",
         "a482d4bc-cd94-47fe-8a40-4109047178ae",
         "8822c82c-fbda-4d98-929f-b37b225ee8c0",
         "89a1c22f-8d59-4dd3-8f8f-7d5fcfef7671",
+        "f2601e70-02e2-497e-8570-8f808abd3d6f",
         "bb0b8593-8c3a-41c6-a010-879c4828a9de",
         "65a682e7-6a0a-418a-aa86-ccf5174ad112",
         "5fcc20a7-cfff-4305-b845-dc362e1256fb"

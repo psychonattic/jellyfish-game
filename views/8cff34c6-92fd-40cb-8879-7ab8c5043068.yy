@@ -10,7 +10,10 @@
         "d38ee0cd-5eed-4191-b75c-581f7ffe25c8",
         "478696f2-a493-4e3a-8372-74e255aaa8d0",
         "fd071abb-1f9f-4c1e-a28b-a6d32cd7af64",
-        "1bf16731-bfd7-4f6e-bd92-aa463699ad2a"
+        "1bf16731-bfd7-4f6e-bd92-aa463699ad2a",
+        "51803c57-c356-4b18-91a7-5a0664ec36ea",
+        "d3e1dceb-9850-4b8a-9bde-a412c6b61966",
+        "b66f5e7e-7a67-4a5d-875c-42dd37f076d4"
     ],
     "filterType": "GMScript",
     "folderName": "buttons",

@@ -41,10 +41,7 @@ To do:
 	create global 'max_speed', change speed adjustments using max speed, increase or decrease max speed depending on size.
 	powerup could temporarily change max speed
 
-9. Show score duirng gameplay 
-	
-	
-	add basic AI
+9. create tutorial that teaches basic mechanics
 	
 	
 	
