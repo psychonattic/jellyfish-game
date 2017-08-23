@@ -60,8 +60,8 @@
                     "name_with_no_file_rename": "inst_1CF45AAD",
                     "objId": "858cc16c-1b62-4b0a-a666-1f1d2c37885d",
                     "rotation": 0,
-                    "scaleX": 1.3,
-                    "scaleY": 1.3
+                    "scaleX": 0.8,
+                    "scaleY": 0.8
                 },
                 {
                     "id": "8d59ce73-ff3e-4dd5-a92c-0eccf505ba8a",
@@ -84,8 +84,8 @@
                     "name_with_no_file_rename": "inst_3B70383E",
                     "objId": "6ce04b9c-bf6c-49e6-8c59-3a44ae0b560a",
                     "rotation": 0,
-                    "scaleX": 1.3,
-                    "scaleY": 1.3
+                    "scaleX": 0.8,
+                    "scaleY": 0.8
                 },
                 {
                     "id": "3b293d6b-1530-4a43-8013-75ed8d2757a3",
@@ -144,7 +144,7 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_147EDA0C",
-                    "x": 352,
+                    "x": 320,
                     "y": 256,
                     "IsDnD": false,
                     "colour": {
@@ -156,8 +156,8 @@
                     "name_with_no_file_rename": "inst_147EDA0C",
                     "objId": "a72076fc-37ed-453b-9504-18e563fe86c6",
                     "rotation": 0,
-                    "scaleX": 0.5,
-                    "scaleY": 0.5
+                    "scaleX": 0.6,
+                    "scaleY": 0.6
                 }
             ]
         },

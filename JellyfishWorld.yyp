@@ -247,6 +247,14 @@
             }
         },
         {
+            "Key": "31d012cd-6efc-4f4c-8c61-b65afaf364fc",
+            "Value": {
+                "id": "4e736a5a-82a0-40e7-b460-900e26ee6f31",
+                "resourcePath": "sounds\\snd_1\\snd_1.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "356b00eb-3393-4f69-ba03-48355a1d71dc",
             "Value": {
                 "id": "2a991a6e-e94f-493a-b8ac-edb988aab7b8",
@@ -764,6 +772,14 @@
                 "id": "b4d5aeea-b98c-4646-aa02-9ea0e9c14d77",
                 "resourcePath": "scripts\\action_turn_right\\action_turn_right.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "b3cc65f3-765a-4bda-80cc-48cbe99d24f5",
+            "Value": {
+                "id": "9d4d916a-c6df-4c38-85d3-46a5dedb6b02",
+                "resourcePath": "objects\\obj_sound\\obj_sound.yy",
+                "resourceType": "GMObject"
             }
         },
         {

@@ -49,6 +49,10 @@ if(global.ai == true){
 		//var rock = instance_nearest(x,y,obj_rock);
 		if(rock_id == noone && can_eat == false){
 			var rock = instance_nearest(x,y,obj_rock);
+			if(rock.player_id != noone){
+				rock = action_inst_nth_nearest(obj_rock,x,y,2);
+			}
+			
 			var dir = point_direction(x,y,rock.x,rock.y);
 			if(direction+10<dir){
 				action_turn_left();
@@ -62,10 +66,10 @@ if(global.ai == true){
 		else if (rock_id != noone && can_eat == false){
 			var player = instance_nearest(x,y,obj_player);
 			var dir = point_direction(x,y,player.x,player.y);
-			if(direction+22<=dir+180){
+			if(direction+10<=(dir+180)%360){
 				action_turn_left();
 			}
-			else if(direction-22>=dir+180){
+			else if(direction-10>(dir+180)%360){
 				action_turn_right();
 			}
 			else{
