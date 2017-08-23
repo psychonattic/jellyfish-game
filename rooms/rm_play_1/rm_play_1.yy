@@ -1758,15 +1758,15 @@
             "name": "Compatibility_Colour",
             "userdefined_depth": true,
             "visible": true,
-            "animationFPS": 1,
+            "animationFPS": 15,
             "animationSpeedType": 0,
             "colour": {
-                "Value": 4294967168
+                "Value": 4294967295
             },
             "hspeed": 0,
-            "htiled": false,
-            "spriteId": "00000000-0000-0000-0000-000000000000",
-            "stretch": false,
+            "htiled": true,
+            "spriteId": "28c12c1c-e4c3-4335-8b3c-9a4977e226e7",
+            "stretch": true,
             "userdefined_animFPS": false,
             "vspeed": 0,
             "vtiled": false,
