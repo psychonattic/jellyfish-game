@@ -231,6 +231,14 @@
             }
         },
         {
+            "Key": "2f42016e-1886-44ec-b7ad-861c9a4f6ade",
+            "Value": {
+                "id": "b19a2fe0-56a9-46fd-9a85-8d4362751f0a",
+                "resourcePath": "rooms\\rm_tutorial_screen\\rm_tutorial_screen.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "2f973881-7deb-411c-946e-9aa41c05f55d",
             "Value": {
                 "id": "dc9a82e1-7fa3-48ac-b966-aa6edb65ac73",
@@ -308,6 +316,14 @@
                 "id": "5b87a988-5b9f-47e8-ad5e-c50efde9c328",
                 "resourcePath": "scripts\\button_best_of_one\\button_best_of_one.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "4bf8ce59-4ca2-4eb3-ac10-fa87c882f319",
+            "Value": {
+                "id": "99e7d664-5589-40bd-bf8d-702a1a9ba99c",
+                "resourcePath": "sprites\\spr_glass\\spr_glass.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -964,6 +980,14 @@
                 "id": "7c865553-c43e-40c2-9939-be6bde5b28cf",
                 "resourcePath": "scripts\\check_bounce_pizza\\check_bounce_pizza.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "d6c77eeb-f461-4a88-a727-609dba213542",
+            "Value": {
+                "id": "d88a7f0f-d623-4108-bb8c-049493f08a99",
+                "resourcePath": "objects\\obj_glass\\obj_glass.yy",
+                "resourceType": "GMObject"
             }
         },
         {
