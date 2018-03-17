@@ -1,6 +1,6 @@
 To do:
 
-1.	clean up start screen
+1.	clean up start screen - DONE
 	start screen should have options button.
 	Play button
 		play button should redirect to best of screen (best of 1, best of 3, best of 5)
