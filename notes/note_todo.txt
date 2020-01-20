@@ -19,14 +19,14 @@ To do:
 	make game randomly select from different game play rooms
 		
 
-2.	clean up end screen
+2.	clean up end screen - DONE
 		end screen should display winner
 
 3.	make better sprites/ background
 
-4.	test an animation
+4.	test an animation - DONE
 
-5.	add sound effects/ music
+5.	add sound effects/ music - kinda done
 
 6.	add spike objects? (if you run into them you drop pizza)
 
@@ -42,6 +42,14 @@ To do:
 	powerup could temporarily change max speed
 
 9. create tutorial that teaches basic mechanics
+
+10. Make it so that the player can pause the game during a round, to restrt, quit, etc
+
+11. think of ways to make gameplay more fun
+
+12. make food and rocks generate randomly
+
+
 	
 	
 	
